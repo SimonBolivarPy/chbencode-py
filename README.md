@@ -10,7 +10,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 python -m pip install pip
 python -m pip install --upgrade pip
-pip install git+chbencode
+pip install git+https://github.com/SimonBolivarPy/chbencode-py.git
 ```
 ## Using
 
