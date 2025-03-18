@@ -25,5 +25,12 @@ decode_string = b.decd(encode_string)
 print(decode_string)
 ```
 
+# Note
+result = ''.join(map(chr,data))
+result = ''.join([chr(x) for x in data])
+result = bytearray(data).decode('ascii')
+result = bytes(data).decode('ascii')
+
+
 ## License
 MIT
